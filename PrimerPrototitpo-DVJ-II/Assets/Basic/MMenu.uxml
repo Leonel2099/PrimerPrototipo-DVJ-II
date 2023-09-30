@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Basic/StylesMenu.uss?fileID=7433441132597879392&amp;guid=c1f6a1458ba5b3845b4834ee4f0a2975&amp;type=3#StylesMenu" />
+    <ui:VisualElement name="contenedor" class="contenedor" style="width: 100%; height: 100%; flex-wrap: nowrap; flex-direction: row-reverse; align-items: center; justify-content: center;">
+        <ui:VisualElement name="section" style="width: 1182px; height: 568px; justify-content: space-around; align-items: center; flex-direction: column; flex-wrap: wrap-reverse; margin-bottom: 253px; margin-right: 66px;">
+            <ui:Label text="ASTRO-MATH" display-tooltip-when-elided="true" name="name" class="name" style="width: 616px; height: 284px; font-size: 100px; -unity-font: url(&apos;project://database/Assets/Fonts/space_time/spacetime-regular.ttf?fileID=12800000&amp;guid=46714f30942d87543b7b7ec120707172&amp;type=3#spacetime-regular&apos;); -unity-font-definition: initial; background-image: none; white-space: normal; -unity-text-align: middle-center; border-left-color: rgb(54, 84, 132); border-right-color: rgb(54, 84, 132); border-top-color: rgb(54, 84, 132); border-bottom-color: rgb(54, 84, 132); border-left-width: 11px; border-right-width: 11px; border-top-width: 11px; border-bottom-width: 11px; border-top-left-radius: 123px; border-bottom-left-radius: 123px; border-top-right-radius: 123px; border-bottom-right-radius: 123px; color: rgb(54, 84, 132); margin-left: 29px; margin-right: 29px; margin-top: 29px; margin-bottom: 29px;" />
+            <ui:Button text="PLAY" display-tooltip-when-elided="true" name="play" class="btn" />
+            <ui:Button text="LEVELS" display-tooltip-when-elided="true" name="level" class="btn" />
+            <ui:VisualElement name="section" style="flex-direction: row-reverse; align-items: stretch; justify-content: flex-start;">
+                <ui:Button text="EXIT" display-tooltip-when-elided="true" name="exit" class="btn" />
+                <ui:Button display-tooltip-when-elided="true" name="congif" class="btn-config btn-cofig" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="section" style="width: 1045px; height: 100%;" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,15 +1,9 @@
 VisualElement {
 }
 
-.contenedor {
-}
-
-.name {
-}
-
 .btn {
-    width: 387px;
-    height: -14px;
+    width: 364px;
+    height: 0;
     border-left-width: 12px;
     border-right-width: 12px;
     border-top-width: 12px;
@@ -24,15 +18,15 @@ VisualElement {
     border-bottom-color: rgb(14, 37, 75);
     background-color: rgb(54, 84, 132);
     background-image: none;
-    font-size: 66px;
+    font-size: 60px;
     -unity-font: url('project://database/Assets/Fonts/space_time/spacetime-regular.ttf?fileID=12800000&guid=46714f30942d87543b7b7ec120707172&type=3#spacetime-regular');
     -unity-font-definition: initial;
     color: rgb(11, 17, 16);
     letter-spacing: 3px;
-    padding-left: 51px;
-    padding-right: 51px;
-    padding-top: 51px;
-    padding-bottom: 51px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     -unity-text-align: middle-center;
     min-height: 0;
     max-height: 0;
@@ -42,6 +36,12 @@ VisualElement {
 
 .btn:hover {
     background-color: rgba(102, 129, 173, 255);
+    scale: 1.1 1.1;
+    border-left-color: rgb(26, 64, 128);
+    border-right-color: rgb(26, 64, 128);
+    border-top-color: rgb(26, 64, 128);
+    border-bottom-color: rgb(26, 64, 128);
+    font-size: 62px;
 }
 
 .btn-config {
@@ -62,8 +62,14 @@ VisualElement {
     background-image: url('project://database/Assets/Saurabh_Studio/Ui%20button%20pack%206/white%20icon/settings.png?fileID=2800000&guid=099504f5e0a51864b992b8800320147f&type=3#settings');
     -unity-background-image-tint-color: rgba(29, 46, 72, 255);
     -unity-background-scale-mode: scale-to-fit;
+    margin-right: 39px;
 }
 
 .btn-cofig:hover {
     background-color: rgba(102, 129, 173, 255);
+    scale: 1.1 1.1;
+    border-left-color: rgb(26, 64, 128);
+    border-right-color: rgb(26, 64, 128);
+    border-top-color: rgb(26, 64, 128);
+    border-bottom-color: rgb(26, 64, 128);
 }

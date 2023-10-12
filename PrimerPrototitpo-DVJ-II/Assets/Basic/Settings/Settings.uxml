@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Basic/Styles.uss?fileID=7433441132597879392&amp;guid=c1f6a1458ba5b3845b4834ee4f0a2975&amp;type=3#Styles" />
+    <ui:VisualElement name="contenedor" style="width: 100%; height: 100%; flex-wrap: nowrap; flex-direction: row; align-items: flex-start; justify-content: flex-end;">
+        <ui:VisualElement name="section" style="width: 647px; height: 100%; justify-content: flex-start; align-items: center; flex-direction: column; flex-wrap: wrap-reverse; margin-bottom: 0; margin-right: 0; margin-left: 0; margin-top: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; max-height: 100%; min-height: 0;">
+            <ui:Label text="ASTRO-MATH" display-tooltip-when-elided="true" name="name" class="name" style="width: 566px; height: 166px; font-size: 66px; -unity-font: url(&apos;project://database/Assets/Fonts/space_time/spacetime-regular.ttf?fileID=12800000&amp;guid=46714f30942d87543b7b7ec120707172&amp;type=3#spacetime-regular&apos;); -unity-font-definition: initial; background-image: none; white-space: normal; -unity-text-align: middle-center; border-left-color: rgb(54, 84, 132); border-right-color: rgb(54, 84, 132); border-top-color: rgb(54, 84, 132); border-bottom-color: rgb(54, 84, 132); border-left-width: 11px; border-right-width: 11px; border-top-width: 11px; border-bottom-width: 11px; border-top-left-radius: 123px; border-bottom-left-radius: 123px; border-top-right-radius: 123px; border-bottom-right-radius: 123px; color: rgb(54, 84, 132); margin-left: 36px; margin-right: 36px; margin-top: 36px; margin-bottom: 36px;" />
+            <ui:VisualElement name="section" focusable="true" style="width: 425px; height: 357px; background-color: rgba(14, 37, 75, 0.32); -unity-background-image-tint-color: rgb(255, 255, 255); border-left-width: 9px; border-right-width: 9px; border-top-width: 9px; border-bottom-width: 9px; border-top-left-radius: 69px; border-bottom-left-radius: 69px; border-top-right-radius: 69px; border-bottom-right-radius: 69px; border-left-color: rgba(102, 129, 173, 0.53); border-right-color: rgba(102, 129, 173, 0.53); border-top-color: rgba(102, 129, 173, 0.53); border-bottom-color: rgba(102, 129, 173, 0.53); align-items: center; justify-content: space-around;">
+                <ui:VisualElement style="width: 250px; height: 104px;">
+                    <ui:Toggle label="SoundFX" name="soundFX" focusable="true" class="checkBox" style="align-items: center; justify-content: flex-start;" />
+                    <ui:Slider value="4.5" style="flex-direction: row-reverse;">
+                        <ui:Label text="Min/Max" display-tooltip-when-elided="true" style="font-size: 24px; margin-right: 13px; -unity-font-definition: initial; -unity-font: url(&apos;project://database/Assets/Fonts/space_time/spacetime-regular.ttf?fileID=12800000&amp;guid=46714f30942d87543b7b7ec120707172&amp;type=3#spacetime-regular&apos;); color: rgb(26, 64, 128);" />
+                    </ui:Slider>
+                </ui:VisualElement>
+                <ui:VisualElement>
+                    <ui:Toggle label="Music" name="music" class="checkBox" style="justify-content: flex-start; align-items: center;" />
+                    <ui:Slider value="4.5" style="flex-direction: row-reverse;">
+                        <ui:Label text="Min/Max" display-tooltip-when-elided="true" style="font-size: 24px; margin-right: 13px; -unity-font-definition: initial; -unity-font: url(&apos;project://database/Assets/Fonts/space_time/spacetime-regular.ttf?fileID=12800000&amp;guid=46714f30942d87543b7b7ec120707172&amp;type=3#spacetime-regular&apos;); color: rgb(26, 64, 128);" />
+                    </ui:Slider>
+                </ui:VisualElement>
+                <ui:Button name="btn-Back" text="&lt;&lt;BACK" class="btnback btnBack" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

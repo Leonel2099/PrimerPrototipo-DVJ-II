@@ -9,6 +9,8 @@ public class CommandVoice : MonoBehaviour
 {
     public float direccionZ = 0;
     public float direccionX = 0;
+    public GameObject Solution01, Solution02, Solution03, Solution04;
+    Animator playerAnimation;
     // Start is called before the first frame update
     KeywordRecognizer keywordRecognizer; // creo mi reconocedor de comandode voz
 
@@ -26,12 +28,15 @@ public class CommandVoice : MonoBehaviour
         keywordRecognizer = new KeywordRecognizer(actions.Keys.ToArray());
         keywordRecognizer.OnPhraseRecognized += KeywordRecognizer_OnPhraseRecognized;
         keywordRecognizer.Start();
+        playerAnimation = GetComponent<Animator>();
         
     }
 
     private void MoveUp()
     {
         Debug.Log("el personaje debe moverse hacia arriba");
+        transform.LookAt(Solution01.transform.position, Vector3.forward);
+        playerAnimation.SetBool("Run", true);
         //WindowsVoice.speak("he dicho saltar");
         direccionZ = 1;
     }
@@ -39,22 +44,28 @@ public class CommandVoice : MonoBehaviour
     private void MoveDown()
     {
         Debug.Log("el personaje debe moverse hacia abajo");
+        transform.LookAt(Solution03.transform.position, Vector3.back);
+        playerAnimation.SetBool("Run", true);
         //WindowsVoice.speak("he dicho aba");
-        direccionZ = -1;
+        direccionZ = 1;
     }
 
     private void MoveRight()
     {
         Debug.Log("el personaje debe moverse hacia la derecha");
+        transform.LookAt(Solution02.transform.position, Vector3.right);
+        playerAnimation.SetBool("Run", true);
         //WindowsVoice.speak("he dicho aba");
-        direccionX = 1;
+        direccionZ = 1;
     }
 
     private void MoveLeft()
     {
         Debug.Log("el personaje debe moverse hacia la izquierda");
+        transform.LookAt(Solution04.transform.position, Vector3.left);
+        playerAnimation.SetBool("Run", true);
         //WindowsVoice.speak("he dicho aba");
-        direccionX = -1;
+        direccionZ = 1;
     }
 
     private void KeywordRecognizer_OnPhraseRecognized(PhraseRecognizedEventArgs command)

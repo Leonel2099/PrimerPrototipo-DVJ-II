@@ -123,7 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD:PrimerPrototitpo-DVJ-II/Assets/Scenes/SampleScene.unity
+--- !u!1 &255660393
+=======
 --- !u!1 &36169234
+>>>>>>> 2e97207139864fdc6c09dde251e94b462430b1e0:PrimerPrototitpo-DVJ-II/Assets/Scenes/2.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,9 +135,15 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD:PrimerPrototitpo-DVJ-II/Assets/Scenes/SampleScene.unity
+  - component: {fileID: 255660396}
+  - component: {fileID: 255660395}
+  - component: {fileID: 255660394}
+=======
   - component: {fileID: 36169237}
   - component: {fileID: 36169236}
   - component: {fileID: 36169235}
+>>>>>>> 2e97207139864fdc6c09dde251e94b462430b1e0:PrimerPrototitpo-DVJ-II/Assets/Scenes/2.unity
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -141,21 +151,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:PrimerPrototitpo-DVJ-II/Assets/Scenes/SampleScene.unity
+--- !u!81 &255660394
+=======
 --- !u!81 &36169235
+>>>>>>> 2e97207139864fdc6c09dde251e94b462430b1e0:PrimerPrototitpo-DVJ-II/Assets/Scenes/2.unity
 AudioListener:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:PrimerPrototitpo-DVJ-II/Assets/Scenes/SampleScene.unity
+  m_GameObject: {fileID: 255660393}
+  m_Enabled: 1
+--- !u!20 &255660395
+=======
   m_GameObject: {fileID: 36169234}
   m_Enabled: 1
 --- !u!20 &36169236
+>>>>>>> 2e97207139864fdc6c09dde251e94b462430b1e0:PrimerPrototitpo-DVJ-II/Assets/Scenes/2.unity
 Camera:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:PrimerPrototitpo-DVJ-II/Assets/Scenes/SampleScene.unity
+  m_GameObject: {fileID: 255660393}
+=======
   m_GameObject: {fileID: 36169234}
+>>>>>>> 2e97207139864fdc6c09dde251e94b462430b1e0:PrimerPrototitpo-DVJ-II/Assets/Scenes/2.unity
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
@@ -192,13 +216,21 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+<<<<<<< HEAD:PrimerPrototitpo-DVJ-II/Assets/Scenes/SampleScene.unity
+--- !u!4 &255660396
+=======
 --- !u!4 &36169237
+>>>>>>> 2e97207139864fdc6c09dde251e94b462430b1e0:PrimerPrototitpo-DVJ-II/Assets/Scenes/2.unity
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:PrimerPrototitpo-DVJ-II/Assets/Scenes/SampleScene.unity
+  m_GameObject: {fileID: 255660393}
+=======
   m_GameObject: {fileID: 36169234}
+>>>>>>> 2e97207139864fdc6c09dde251e94b462430b1e0:PrimerPrototitpo-DVJ-II/Assets/Scenes/2.unity
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}

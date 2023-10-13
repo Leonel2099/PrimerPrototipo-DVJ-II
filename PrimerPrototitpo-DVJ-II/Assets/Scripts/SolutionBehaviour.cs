@@ -21,12 +21,15 @@ public class SolutionBehaviour : MonoBehaviour
     public TMP_Text scoreText;
 
     public SolutionBehaviour solutionBehaviour1, solutionBehaviour2, solutionBehaviour3, solutionBehaviour4;
-  
+    public Animator playerAnimation;
+    
+
     // Start is called before the first frame update
     void Start()
     {
         
         GameObject player = GameObject.Find("Player");
+        playerAnimation = player.GetComponent<Animator>();
         
         commandVoice = player.GetComponent<CommandVoice>();
         scorePlayer = player.GetComponent<ScorePlayer>();
@@ -147,9 +150,10 @@ public class SolutionBehaviour : MonoBehaviour
                 commandVoice.direccionZ = 0;
                 commandVoice.direccionX = 0;
 
-                other.transform.position = new Vector3 (0f, 0.5f, 0f);
+                other.transform.position = new Vector3 (0.03f, 0f, -0.35f);
+            playerAnimation.SetBool("Run", false);
 
-                operationBehaviour.GenerateNumbers();
+            operationBehaviour.GenerateNumbers();
 
                 solutionBehaviour1.AssignValues();
                 solutionBehaviour2.AssignValues();

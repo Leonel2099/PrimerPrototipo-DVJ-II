@@ -136,7 +136,7 @@ public class SolutionBehaviour : MonoBehaviour
             if (random == numSolution)
             {
                 WindowsVoice.speak("Felicidades acertaste");
-                scorePlayer.score++;
+                scorePlayer.score+=10;
                 scoreText.text = "Score: " + scorePlayer.score.ToString();
 
                 //Debug.Log ("Puntuacion :" + scorePlayer.score);

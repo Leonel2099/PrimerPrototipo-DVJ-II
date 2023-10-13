@@ -20,8 +20,8 @@ public class LevelCode : MonoBehaviour
         btn_lvl1.RegisterCallback<ClickEvent,int>(ChangeScene,1);
         btn_lvl2 = root.Q<Button>("level2");
         btn_lvl2.RegisterCallback<ClickEvent,int>(ChangeScene,2);
-        btn_lvl3 = root.Q<Button>("level3");
-        btn_lvl3.RegisterCallback<ClickEvent,int>(ChangeScene,3);
+        btn_lvl3 = root.Q<Button>("lock4");
+        btn_lvl3.RegisterCallback<ClickEvent>(ShowAlert);
         btn_lock1 = root.Q<Button>("lock1");
         btn_lock1.RegisterCallback<ClickEvent>(ShowAlert);
         btn_lock2 = root.Q<Button>("lock2");
@@ -55,9 +55,6 @@ public class LevelCode : MonoBehaviour
                 SceneManager.LoadScene(level);
                 break;
             case 2:
-                SceneManager.LoadScene(level);
-                break;
-            case 3:
                 SceneManager.LoadScene(level);
                 break;
         }

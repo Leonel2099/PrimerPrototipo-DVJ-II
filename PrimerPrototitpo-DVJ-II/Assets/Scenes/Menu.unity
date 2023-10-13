@@ -287,6 +287,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PodOnLegs
       objectReference: {fileID: 0}
+    - target: {fileID: 1797969709338214, guid: d8a0dcc8abe0f9a43a9962953bc57645, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4196102712989238, guid: d8a0dcc8abe0f9a43a9962953bc57645, type: 3}
       propertyPath: m_RootOrder
       value: 1

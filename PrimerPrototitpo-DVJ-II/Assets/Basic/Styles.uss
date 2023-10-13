@@ -1,0 +1,150 @@
+VisualElement {
+}
+
+.btn {
+    width: 364px;
+    height: 0;
+    border-left-width: 12px;
+    border-right-width: 12px;
+    border-top-width: 12px;
+    border-bottom-width: 12px;
+    border-top-left-radius: 42px;
+    border-bottom-left-radius: 42px;
+    border-top-right-radius: 42px;
+    border-bottom-right-radius: 42px;
+    border-left-color: rgb(14, 37, 75);
+    border-right-color: rgb(14, 37, 75);
+    border-top-color: rgb(14, 37, 75);
+    border-bottom-color: rgb(14, 37, 75);
+    background-color: rgb(54, 84, 132);
+    background-image: none;
+    font-size: 60px;
+    -unity-font: url('project://database/Assets/Fonts/space_time/spacetime-regular.ttf?fileID=12800000&guid=46714f30942d87543b7b7ec120707172&type=3#spacetime-regular');
+    -unity-font-definition: initial;
+    color: rgb(11, 17, 16);
+    letter-spacing: 3px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    -unity-text-align: middle-center;
+    min-height: 0;
+    max-height: 0;
+    justify-content: flex-start;
+    margin-top: 6px;
+}
+
+.btn:hover {
+    background-color: rgb(102, 129, 173);
+    scale: 1.1 1.1;
+    border-left-color: rgb(26, 64, 128);
+    border-right-color: rgb(26, 64, 128);
+    border-top-color: rgb(26, 64, 128);
+    border-bottom-color: rgb(26, 64, 128);
+    font-size: 62px;
+}
+
+.btn-config {
+    width: 152px;
+    background-color: rgb(54, 84, 132);
+    border-left-color: rgb(14, 37, 75);
+    border-right-color: rgb(14, 37, 75);
+    border-top-color: rgb(14, 37, 75);
+    border-bottom-color: rgb(14, 37, 75);
+    border-left-width: 13px;
+    border-right-width: 13px;
+    border-top-width: 13px;
+    border-bottom-width: 13px;
+    border-top-left-radius: 43px;
+    border-bottom-left-radius: 43px;
+    border-top-right-radius: 43px;
+    border-bottom-right-radius: 43px;
+    background-image: url('project://database/Assets/Saurabh_Studio/Ui%20button%20pack%206/white%20icon/settings.png?fileID=2800000&guid=099504f5e0a51864b992b8800320147f&type=3#settings');
+    -unity-background-image-tint-color: rgb(29, 46, 72);
+    -unity-background-scale-mode: scale-to-fit;
+    margin-right: 39px;
+}
+
+.btn-cofig:hover {
+    background-color: rgb(102, 129, 173);
+    scale: 1.1 1.1;
+    border-left-color: rgb(26, 64, 128);
+    border-right-color: rgb(26, 64, 128);
+    border-top-color: rgb(26, 64, 128);
+    border-bottom-color: rgb(26, 64, 128);
+}
+
+.checkBox {
+    width: 218px;
+    height: 89px;
+    font-size: 39px;
+    color: rgb(102, 129, 173);
+    -unity-font: url('project://database/Assets/Fonts/space_time/spacetime-regular.ttf?fileID=12800000&guid=46714f30942d87543b7b7ec120707172&type=3#spacetime-regular');
+    -unity-font-definition: initial;
+}
+
+.slider {
+}
+
+.btnBack {
+    -unity-background-image-tint-color: rgb(14, 37, 75);
+    background-color: rgb(14, 37, 75);
+    border-left-color: rgb(54, 84, 132);
+    border-right-color: rgb(54, 84, 132);
+    border-top-color: rgb(54, 84, 132);
+    border-bottom-color: rgb(54, 84, 132);
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+    -unity-font-definition: initial;
+    -unity-font: url('project://database/Assets/Fonts/blockt/Blockt.ttf?fileID=12800000&guid=e87ce0f3380af40469432d8e07080d38&type=3#Blockt');
+    font-size: 19px;
+    color: rgb(102, 129, 173);
+}
+
+.btnBack:hover {
+    -unity-background-image-tint-color: rgb(102, 129, 173);
+    color: rgb(14, 37, 75);
+    font-size: 22px;
+    background-color: rgb(102, 129, 173);
+}
+
+.btnLevel {
+    background-color: rgb(14, 37, 75);
+    border-left-color: rgba(54, 84, 132, 255);
+    border-right-color: rgba(54, 84, 132, 255);
+    border-top-color: rgba(54, 84, 132, 255);
+    border-bottom-color: rgba(54, 84, 132, 255);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    border-top-left-radius: 27px;
+    border-bottom-left-radius: 27px;
+    border-top-right-radius: 27px;
+    border-bottom-right-radius: 27px;
+    -unity-font-definition: initial;
+    -unity-font: url('project://database/Assets/Fonts/highup/HIGHUP%20ITALIC%20PERSONAL%20USE.ttf?fileID=12800000&guid=f1cc89574161b634c8050b24c939ff19&type=3#HIGHUP ITALIC PERSONAL USE');
+    font-size: 15px;
+    padding-left: 52px;
+    padding-right: 52px;
+    padding-top: 52px;
+    padding-bottom: 52px;
+}
+
+.btnLevel:hover {
+    scale: 1.1 1.1;
+    background-color: rgb(26, 64, 128);
+}
+
+.alertTransition {
+    opacity: 0.3;
+    transition-property: flex-shrink;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-sine;
+}
